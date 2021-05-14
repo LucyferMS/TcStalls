@@ -1,0 +1,19 @@
+name: TcStalls
+version: ${project.version}
+main: pl.lucyferms.tcstalls.TcStalls
+softdepend:
+  - Vault
+  - WorldGuard
+api-version: 1.16
+authors: [ LucyferMS , Pijok ]
+commands:
+  stall:
+    usage: /stall
+    aliases:
+      - stragan
+      - market
+  astall:
+    usage: /astall
+    aliases:
+      - astragan
+      - amarket
